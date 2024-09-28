@@ -37,7 +37,7 @@ function buildMetadata(sample) {
 
 2. Populated Dropdown
 The dropdown menu had options for 153 IDS from individuals in the sample data.
-
+//
 function init() {
   d3.json("https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json").then((data) => {
     // Get the names field
