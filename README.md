@@ -15,10 +15,7 @@ In this assignment, you will build an interactive dashboard to explore the Belly
 
 ## Key Steps
 1. JSON Data
-
-
-
-// Get json data
+```javascript
 Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json
 function buildMetadata(sample) {
   d3.json("https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json").then((data) => {
@@ -29,9 +26,7 @@ function buildMetadata(sample) {
 
 2. Populated Dropdown
 The dropdown menu had options for 153 IDS from individuals in the sample data.
-
-
-
+```javascript
 // Use d3 to select the dropdown with id of `#selDataset`
     const dropdown = d3.select("#selDataset");
     console.log(dropdown)
