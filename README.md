@@ -24,11 +24,11 @@ function buildMetadata(sample) {
     // Get the metadata field
     const metadata = data.metadata;
     console.log(metadata)
-
+```
 
 2. Populated Dropdown
 The dropdown menu had options for 153 IDS from individuals in the sample data.
-
+```javascript
 // Use d3 to select the dropdown with id of `#selDataset`
     const dropdown = d3.select("#selDataset");
     console.log(dropdown)
@@ -41,6 +41,7 @@ The dropdown menu had options for 153 IDS from individuals in the sample data.
         .text(name)  // Set the text for the dropdown option
         .property("value", name);  // Set the value for the option
     });
+```
 
 3. Bar Chart
 
