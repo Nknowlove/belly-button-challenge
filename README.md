@@ -23,7 +23,7 @@ function buildMetadata(sample) {
     // Get the metadata field
     const metadata = data.metadata;
     console.log(metadata)
-```javascript
+
 
 2. Populated Dropdown
 The dropdown menu had options for 153 IDS from individuals in the sample data.
@@ -40,7 +40,6 @@ The dropdown menu had options for 153 IDS from individuals in the sample data.
         .text(name)  // Set the text for the dropdown option
         .property("value", name);  // Set the value for the option
     });
-```javascript
 
 3. Bar Chart
 Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
