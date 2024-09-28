@@ -1,10 +1,8 @@
-# belly-button-challenge
-# belly-button-challenge
 # Module 14: Belly Button Challenge
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Tools](#Tools)
-- [Key Steps](#Key Steps)
+- [Key Steps](#key-steps)
 
 ## Introduction
 In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
@@ -17,6 +15,7 @@ In this assignment, you will build an interactive dashboard to explore the Belly
 
 ## Key Steps
 1. JSON Data
+
 
 Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json
 function buildMetadata(sample) {
@@ -41,7 +40,6 @@ The dropdown menu had options for 153 IDS from individuals in the sample data.
 
 function init() {
   d3.json("https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json").then((data) => {
-
     // Get the names field
     const names = data.names;
     console.log(names)
