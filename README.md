@@ -16,6 +16,7 @@ In this assignment, you will build an interactive dashboard to explore the Belly
 ## Key Steps
 1. JSON Data
 ```javascript
+
 Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json
 function buildMetadata(sample) {
   d3.json("https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json").then((data) => {
@@ -27,7 +28,7 @@ function buildMetadata(sample) {
 
 2. Populated Dropdown
 The dropdown menu had options for 153 IDS from individuals in the sample data.
-```javascript
+
 // Use d3 to select the dropdown with id of `#selDataset`
     const dropdown = d3.select("#selDataset");
     console.log(dropdown)
@@ -42,14 +43,17 @@ The dropdown menu had options for 153 IDS from individuals in the sample data.
     });
 
 3. Bar Chart
+
 Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 ![Bar Chart](images/bar_chart.png)
 
 4. Bubble Chart
+
 Create a bubble chart that displays each sample
 ![Bubble Chart](images/bubble_chart.png)
 
 5. Metadata
+
 Showed demographic data for each selected individual, displayed as key:value pairs.
 
 ![Metadata](images/metadata.png)
