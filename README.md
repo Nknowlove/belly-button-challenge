@@ -4,7 +4,7 @@
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Tools](#Tools)
-- [Key_Steps](#Key Steps)
+- [Key Steps](#Key Steps)
 
 ## Introduction
 In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity datasetLinks to an external site., which catalogs the microbes that colonize human navels.
@@ -69,4 +69,5 @@ Create a bubble chart that displays each sample
 
 5. Metadata
 Showed demographic data for each selected individual, displayed as key:value pairs.
+
 ![Metadata](images/metadata.png)
